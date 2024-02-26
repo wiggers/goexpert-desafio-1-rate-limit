@@ -49,3 +49,5 @@
           Exemplo de Body:  {"ipOrToken" : "127.0.0.1"}
     5 - Utilize o endpoint (GET) : **localhost:8080/message** para testar o middleware 
           Lembrado que caso tenha interesse em utilizar o token é necessario adiciona-lo do Header da requisição. API_KEY: {token} 
+
+    Obs: No momento requisições sem token ou IP estão sendo permitidas sem controle de limite
